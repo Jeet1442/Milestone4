@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-09T12:57:11 IST" name="Suite" finished-at="2021-11-09T12:59:15 IST" duration-ms="124293">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.TestCase2_TestRunner@13d73fa]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.TestCase3_TestRunner@3e30646a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-11-09T12:57:11 IST" name="Validating Testcase 1" finished-at="2021-11-09T12:58:36 IST" duration-ms="84557">
+      <class name="com.mindtree.Runner.TestCase1">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.mindtree.Runner.TestCase1@22d7b4f8]" started-at="2021-11-09T12:57:11 IST" name="initialize" finished-at="2021-11-09T12:58:26 IST" duration-ms="75242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="Case1()[pri:0, instance:com.mindtree.Runner.TestCase1@22d7b4f8]" started-at="2021-11-09T12:58:26 IST" name="Case1" finished-at="2021-11-09T12:58:34 IST" duration-ms="7512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Case1 -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.mindtree.Runner.TestCase1@22d7b4f8]" started-at="2021-11-09T12:58:34 IST" name="close" finished-at="2021-11-09T12:58:36 IST" duration-ms="1633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.mindtree.Runner.TestCase1 -->
+    </test> <!-- Validating Testcase 1 -->
+    <test started-at="2021-11-09T12:58:36 IST" name="Validating Testcase 2" finished-at="2021-11-09T12:58:55 IST" duration-ms="18396">
+      <class name="com.mindtree.Runner.TestCase2_TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.mindtree.Runner.TestCase2_TestRunner@13d73fa]" started-at="2021-11-09T12:58:36 IST" name="setUpClass" finished-at="2021-11-09T12:58:37 IST" duration-ms="878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1c7f96b1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.TestCase2_TestRunner@13d73fa]" started-at="2021-11-09T12:58:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-09T12:58:54 IST" duration-ms="17354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate Antibacterial"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Search in Antibacterial and verify]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.mindtree.Runner.TestCase2_TestRunner@13d73fa]" started-at="2021-11-09T12:58:54 IST" name="tearDownClass" finished-at="2021-11-09T12:58:55 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mindtree.Runner.TestCase2_TestRunner -->
+    </test> <!-- Validating Testcase 2 -->
+    <test started-at="2021-11-09T12:58:55 IST" name="Validating Testcase 3" finished-at="2021-11-09T12:59:15 IST" duration-ms="20745">
+      <class name="com.mindtree.Runner.TestCase3_TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.mindtree.Runner.TestCase3_TestRunner@3e30646a]" started-at="2021-11-09T12:58:55 IST" name="setUpClass" finished-at="2021-11-09T12:58:55 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1bc49bc5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.mindtree.Runner.TestCase3_TestRunner@3e30646a]" started-at="2021-11-09T12:58:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-09T12:59:15 IST" duration-ms="20705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Laudry page check"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify text in laundry page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.mindtree.Runner.TestCase3_TestRunner@3e30646a]" started-at="2021-11-09T12:59:15 IST" name="tearDownClass" finished-at="2021-11-09T12:59:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.mindtree.Runner.TestCase3_TestRunner -->
+    </test> <!-- Validating Testcase 3 -->
+  </suite> <!-- Suite -->
+</testng-results>

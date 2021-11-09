@@ -1,0 +1,8 @@
+
+2021-11-09 12:58:26,694 INFO c.m.r.Base [main] Url working fine
+2021-11-09 12:58:34,363 INFO c.m.r.Base [main] Verified the product as it clicked on the product name hence the product is present
+2021-11-09 12:58:47,928 INFO c.m.r.Base [main] Successfully entered correct url
+2021-11-09 12:59:12,548 INFO c.m.r.Base [main] Successfully entered correct url
+2021-11-09 12:59:13,220 INFO c.m.r.Base [main] Successfully clicked on Lear More
+2021-11-09 12:59:14,880 INFO c.m.r.Base [main] Successfully clicked on How to do Laundry
+2021-11-09 12:59:15,687 INFO c.m.r.Base [main] Successfully validated How to Read Laundry Symbols 
